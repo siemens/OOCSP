@@ -1,0 +1,11 @@
+=====UNKNOWN=====
+%%  runtime:       10:01.814 (601814.000 ms)
+%%  solvetime:     10:00.005 (600005.000 ms)
+%%  solutions:     0
+%%  variables:     152051
+%%  propagators:   170722
+%%  propagations:  464555213
+%%  nodes:         121617
+%%  failures:      60795
+%%  restarts:      0
+%%  peak depth:    92

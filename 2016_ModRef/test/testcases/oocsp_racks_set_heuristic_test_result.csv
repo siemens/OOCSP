@@ -1,0 +1,9 @@
+name;result;variables;runtime;solvetime;nodes;failures
+oocsp_racks_030_elementa_001.dzn;SAT;72748;1672;798;507;234
+oocsp_racks_030_elementa_002.dzn;SAT;72748;1711;823;564;261
+oocsp_racks_030_elementa_003.dzn;SAT;72748;1788;896;619;287
+oocsp_racks_030_elementa_004.dzn;SAT;72748;1849;963;672;312
+oocsp_racks_030_elementa_005.dzn;SAT;72748;1890;1002;709;329
+oocsp_racks_030_elementb_001.dzn;SAT;72746;1717;833;577;269
+oocsp_racks_030_elementb_002.dzn;SAT;72746;1765;887;624;291
+oocsp_racks_030_elementb_003.dzn;UNKNOWN;72746;1000;1000;162365;81163

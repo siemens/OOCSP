@@ -1,0 +1,898 @@
+classnames = ["Building", "Company", "Device", "PC", "Printer", "Room", "Office", "PrintRoom"]
+start = [1, 2, 3, 3, 10, 12, 12, 13, 14]
+nrofobjects = [1, 1, 9, 7, 2, 2, 1, 1, 37]
+Building_company= [2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Device_company= [0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Device_room= [0, 0, 12, 12, 12, 12, 12, 12, 12, 13, 12, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Printer_printerBuilding= [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Room_building= [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+%
+% 171 choice points explored.
+% 
+----------
+_buildings_link_test.fzn:39746:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39747:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39748:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39749:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39750:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39751:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39752:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39753:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39754:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39755:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39756:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39757:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39758:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39759:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39760:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39761:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39762:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39763:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39764:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39765:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39766:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39767:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39768:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39769:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39770:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39771:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39772:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39773:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39774:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39775:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39776:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39777:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39778:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39779:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39780:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39781:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39782:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39783:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39784:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39785:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39786:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39787:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39788:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39789:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39790:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39791:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39792:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39793:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39794:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39795:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39796:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39797:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39798:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39799:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39800:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39801:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39802:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39803:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39804:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39805:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39806:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39807:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39808:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39809:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39810:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39811:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39812:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39813:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39814:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39815:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39816:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39817:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39818:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39819:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39820:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39821:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39822:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39823:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39824:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39825:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39826:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39827:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39828:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39829:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39830:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39831:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39832:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39833:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39834:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39835:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39836:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39837:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39838:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39889:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39890:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39891:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39892:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39893:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39894:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39895:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39896:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39897:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39898:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39899:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39900:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39901:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39902:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39903:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39904:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39905:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39906:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39907:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39908:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39909:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39910:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39911:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39912:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39913:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39914:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39915:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39916:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39917:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39918:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39919:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39920:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39921:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39922:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39923:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39924:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39925:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39926:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39927:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39928:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39929:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39930:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39931:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39932:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39933:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39934:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39935:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39936:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39937:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39938:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39939:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39940:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39941:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39942:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39943:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39944:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39945:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39946:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39947:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39948:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39949:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39950:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39951:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39952:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39953:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39954:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39955:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39956:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39957:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39958:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39959:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39960:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39961:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39962:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39963:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39964:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39965:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39966:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39967:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39968:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39969:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39970:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39971:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39972:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39973:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39974:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39975:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39976:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39977:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39978:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39979:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39980:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39981:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39982:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39983:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39984:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39985:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39986:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39987:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:39988:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40039:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40040:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40041:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40042:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40043:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40044:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40045:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40046:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40047:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40048:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40049:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40050:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40051:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40052:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40053:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40054:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40055:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40056:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40057:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40058:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40059:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40060:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40061:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40062:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40063:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40064:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40065:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40066:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40067:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40068:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40069:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40070:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40071:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40072:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40073:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40074:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40075:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40076:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40077:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40078:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40079:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40080:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40081:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40082:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40083:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40084:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40085:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40086:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40087:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40088:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40089:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40090:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40091:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40092:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40093:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40094:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40095:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40096:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40097:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40098:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40099:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40100:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40101:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40102:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40103:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40104:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40105:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40106:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40107:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40108:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40109:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40110:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40111:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40112:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40113:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40114:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40115:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40116:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40117:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40118:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40119:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40120:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40121:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40122:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40123:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40124:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40125:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40126:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40127:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40128:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40129:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40130:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40131:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40132:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40133:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40134:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40135:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40136:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40137:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+D:\workspaces\jcos\oocsp\test\buildings\oocsp_buildings_link_test.fzn:40138:
+  symbol warning: annotation `promise_total' not recognised, ignoring
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
+warning: FD solver backend: ignoring promise_total/0 annotation.
