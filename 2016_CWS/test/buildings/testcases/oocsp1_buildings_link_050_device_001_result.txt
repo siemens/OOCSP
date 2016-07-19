@@ -1,0 +1,2 @@
+Error: cannot open data file 'D:\Programme\marseclipse\workspace\oocsp\test\buildings\testcases\oocsp1_buildings_link_050_device_001.dzn'.
+minizinc: flattening killed by signal 1
