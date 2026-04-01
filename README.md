@@ -16,6 +16,8 @@ Folder [2016_ModRef](./2016_ModRef/) contains the OOCSP implementation used for 
 
 Folder [2025_Constraints](./2025_Constraints/) contains the product configuration example from our paper _MiniZinc with objects_ (see literature below) in the novel object-oriented syntax introduced therein.
 
+More information about object-oriented product configuration models and MiniZinc can be found in our 2026 book _Product Configuration: An Introduction for Practitioners_.
+
 ## Literature
 
 [Encoding Object-oriented Models in MiniZinc](http://cp2016.a4cp.org/program/workshops/ws-modref-papers/Taupe.pdf) (ModRef 2016)
@@ -23,3 +25,5 @@ Folder [2025_Constraints](./2025_Constraints/) contains the product configuratio
 [Deriving Tighter Component Cardinality Bounds for Product Configuration](http://cp2016.a4cp.org/program/workshops/CWS-2016-Proceedings.pdf#page.47) (CWS 2026)
 
 [MiniZinc with objects](https://doi.org/10.1007/s10601-025-09380-3) (Constraints 2025)
+
+[Product Configuration: An Introduction for Practitioners](https://link.springer.com/book/9783032171627) (SpringerBriefs 2026)
