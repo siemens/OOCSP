@@ -1,13 +1,29 @@
-Copyright Siemens AG, 2016
-
-This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0. If a copy of the MPL was not distributed with this file, You can obtain one at http://mozilla.org/MPL/2.0/.
-
-Authors: Gottfried Schenner / Richard Taupe
-
 # OOCSP
 
-OOCSP is an experimental MiniZinc encoding of object-oriented models. 
+Copyright Siemens AG, 2016-2026
 
-Folder 2016_CWS	contains the OOCSP implementation used for our contribution to the Configuration Workshop 2016 (CWS2016) at the CP2016 conference.
+This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0. If a copy of the MPL was not distributed with this file, You can obtain one at <https://mozilla.org/MPL/2.0/>.
 
-Folder 2016_ModRef contains the OOCSP implementation used for our contribution to the Workshop on Constraint Modelling and Reformulation (ModRef 2016) at the CP2016 conference.
+Authors: Gottfried Schenner / Richard Comploi-Taupe
+
+## Object-oriented MiniZinc
+
+OOCSP is an experimental MiniZinc encoding of object-oriented models.
+
+Folder [2016_CWS](./2016_CWS/) contains the OOCSP implementation used for our contribution to the Configuration Workshop 2016 (CWS2016) at the CP2016 conference (see literature below).
+
+Folder [2016_ModRef](./2016_ModRef/) contains the OOCSP implementation used for our contribution to the Workshop on Constraint Modelling and Reformulation (ModRef 2016) at the CP2016 conference (see literature below).
+
+Folder [2025_Constraints](./2025_Constraints/) contains the product configuration example from our paper _MiniZinc with objects_ (see literature below) in the novel object-oriented syntax introduced therein.
+
+More information about object-oriented product configuration models and MiniZinc can be found in our 2026 book _Product Configuration: An Introduction for Practitioners_.
+
+## Literature
+
+[Encoding Object-oriented Models in MiniZinc](http://cp2016.a4cp.org/program/workshops/ws-modref-papers/Taupe.pdf) (ModRef 2016)
+
+[Deriving Tighter Component Cardinality Bounds for Product Configuration](http://cp2016.a4cp.org/program/workshops/CWS-2016-Proceedings.pdf#page.47) (CWS 2026)
+
+[MiniZinc with objects](https://doi.org/10.1007/s10601-025-09380-3) (Constraints 2025)
+
+[Product Configuration: An Introduction for Practitioners](https://link.springer.com/book/9783032171627) (SpringerBriefs 2026)
